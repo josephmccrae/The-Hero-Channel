@@ -1,0 +1,244 @@
+html {
+    height: 100%;
+}
+
+
+/* Body styles */
+body {
+    background-image: url(linen.jpg);
+    font-family: "Arial", "Geneva", sans-serif;
+    height: 100%;
+}
+
+
+
+/*Wrapper for main content*/
+#wrapper {
+    background-color: #000000;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    
+    min-height: 1400px;
+    
+    width: 1200px;
+    
+    -moz-box-shadow: 0 0 40px #292929;
+    -webkit-box-shadow: 0 0 40px #292929;
+    box-shadow: 0 0 40px #292929;
+}
+
+
+
+/*Left section styles*/
+#left {
+    float: left;
+    height: 1400px;
+    width: 20%;
+}
+
+
+/*Logo styles*/
+#logo {
+    display: block;
+    float: left;
+    height: 300px;
+    width: 240px;
+}
+
+
+#title {
+    clear: left;
+    float: left;
+    margin-left: 27.5px;
+}
+
+
+/* Navigation styles */
+nav {
+    background-color: #000000;
+    float: left;
+    margin-top: 25px;
+    width: 100%;
+}
+
+
+nav li a{
+    display: block;
+    list-style: none;
+    margin-left: -35px;
+}
+
+
+/* Movie button */
+#movies {
+    background-image: url(movies.gif);
+    background-repeat: no-repeat;
+    display: block;
+    height: 125px;
+    width: 240px;
+}
+
+/* Movie button rollover */
+#movies:hover {
+    background-position: -240px 0;
+}
+
+
+/* Series button */
+#series {
+    background-image: url(series.gif);
+    background-repeat: no-repeat;
+    display: block;
+    height: 125px;
+    width: 240px;
+}
+
+
+/* Series button rollover */
+#series:hover {
+    background-position: -240px 0;
+}
+
+
+/* Animation button */
+#animation {
+    background-image: url(animation.gif);
+    background-repeat: no-repeat;
+    display: block;
+    height: 125px;
+    width: 240px;
+}
+
+
+/* Animation button rollover */
+#animation:hover {
+    background-position: -240px 0;
+}
+
+
+/* Comics button */
+#comics {
+    background-image: url(comics.gif);
+    background-repeat: no-repeat;
+    display: block;
+    height: 125px;
+    width: 240px;
+}
+
+
+/* Comics button rollover */
+#comics:hover {
+    background-position: -240px 0;
+}
+
+
+/* Fanboy button */
+#fanboys {
+    background-image: url(fanboys.gif);
+    background-repeat: no-repeat;
+    display: block;
+    height: 125px;
+    width: 240px;
+}
+
+
+/* Fanboy button rollover */
+#fanboys:hover {
+    background-position: -240px 0;
+}
+
+
+/* Aside styles */
+aside {
+    display: block;
+    float: left;
+    margin-left: 15px;
+    margin-top: 50px;
+    width: 200px;
+}
+
+aside h4 {
+    color: white;
+}
+
+aside p {
+    color: white;
+}
+
+
+
+table {
+    color: white;
+    width: 80%;
+}
+
+
+td {
+    text-align: center;
+}
+
+table td img {
+    height: 110px;
+    width: 160px;
+}
+
+
+/* Features section */
+#features {
+    color: white;
+    float: left;
+    display: block;
+    height: 400px;
+    width: 80%;
+}
+
+
+#programming {
+    color: white;
+    float: left;
+    display: block;
+    height: 700px;
+    margin-top: 50px;
+    overflow: scroll;
+    width: 80%;
+}
+
+nav#finder {
+    display: block;
+    margin-top: -5px;
+    padding-bottom: 20px;
+}
+
+
+/* Link styles for reviews */
+nav#finder a:link {
+    color: orange;
+}
+
+
+nav#finder a:visited {
+    color: grey;
+}
+
+
+/* Link styles for retun to top */
+a.top:link {
+    color: orange;
+}
+
+
+a.top:visited {
+    color: grey;
+}
+
+
+
+h2 {
+margin: 1em 0em;
+font-size: 1.2em;
+font-style: italic;
+padding-bottom: 0.5em;
+border-bottom:1px solid white;   
+}
