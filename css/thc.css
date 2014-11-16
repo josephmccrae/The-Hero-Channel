@@ -1,0 +1,250 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    
+    margin: 0;
+    padding: 0;
+}
+
+/* General body */
+body {
+    background-color: #fff;
+    font-family: "Arial", "Geneva", sans-serif;
+}
+
+
+
+/* Wrapper for main content */
+.wrapper {
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 100%;
+    
+    width: 1200px;
+    
+    -moz-box-shadow: 0 0 40px #292929;
+    -webkit-box-shadow: 0 0 40px #292929;
+    box-shadow: 0 0 40px #292929;
+}
+
+
+/*---------------------------------------------------------------------------------
+   Lef-hand navigation sidebar
+---------------------------------------------------------------------------------*/
+/* General sidebar */
+.left {
+    float: left;
+    height: 813px;
+    width: 20%;
+}
+
+
+
+/* Logo and title */
+.logo {
+    display: block;
+    float: left;
+    height: 300px;
+    width: 240px;
+}
+
+.title {
+    clear: left;
+    float: left;
+    margin-left: 27.5px;
+}
+
+
+
+/* General navigation styles */
+nav {
+    background-color: #000;
+    float: left;
+    width: 100%;
+}
+
+nav li {
+    display: block;
+    list-style: none;
+    margin-left: -20%;
+    margin-top: 32px;
+}
+
+
+
+/*---------------------------------------------------------------------------------
+   Navigation buttons
+---------------------------------------------------------------------------------*/
+/* Movies button */
+.movies {
+    background-image: url(/images/movies.gif);
+    background-repeat: no-repeat;
+    display: block;
+    height: 125px;
+    width: 240px;
+}
+
+/* Series button */
+.series {
+    background-image: url(/images/series.gif);
+    background-repeat: no-repeat;
+    display: block;
+    height: 125px;
+    width: 240px;
+}
+
+/* Animation button */
+.animation {
+    background-image: url(/images/animation.gif);
+    background-repeat: no-repeat;
+    display: block;
+    height: 125px;
+    width: 240px;
+}
+
+
+
+/*---------------------------------------------------------------------------------
+   Nav button rollovers
+---------------------------------------------------------------------------------*/
+
+/* Movie button rollover */
+.movies:hover {
+    background-position: -240px 0;
+}
+
+
+/* Series button rollover */
+.series:hover {
+    background-position: -240px 0;
+}
+
+/* Animation button rollover */
+.animation:hover {
+    background-position: -240px 0;
+}
+
+
+
+/*---------------------------------------------------------------------------------
+   Main section with photo slides
+---------------------------------------------------------------------------------*/
+
+/*Main content section*/
+.main {
+    float: left;
+    display: block;
+    height: 1000px;
+    overflow: auto;
+    width: 80%;
+}
+
+
+.top {
+    display: block;
+    float: left;
+    height: 213px;
+    width: 100%;
+}
+
+
+.gallery{
+    display: block;
+    height: 600px;
+    width: 100%;
+    float: left;}
+
+
+.viewer {
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    width: 100%; 
+}
+
+
+.viewer.is-loading:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.viewer img {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    width: 935px;
+    top: 50%;
+    left: 50%;
+}
+
+
+
+a.active {
+    opacity: 0.3;
+}
+
+
+/*---------------------------------------------------------------------------------
+   Thumbnail styles
+---------------------------------------------------------------------------------*/
+.schedule {
+    border-bottom: 1px solid #525252;
+    border-top: 1px solid #525252;
+    clear: both;
+    display: block;
+    float: left;
+    height: 170px;
+    margin-top: 25px;
+    width: 100%;
+}
+
+table {
+    color: white;
+    width: 100%;
+}
+
+
+td {
+    text-align: center;
+    padding-right: 4px;
+}
+
+.tonight {
+    height: 110px;
+    width: 100px;
+}
+
+
+table td img {
+    border: 1px solid #525252;
+    height: 110px;
+    width: 160px;
+}
+
+ td p {
+     display: none;
+ }
+
+
+/*---------------------------------------------------------------------------------
+   Details
+---------------------------------------------------------------------------------*/
+
+.overview {
+    background-color: rgba(0, 0, 0, 0.51);
+    border-radius: 5px;
+    clear: both;
+    color: #fff;
+    display: block;
+    float: right;
+    padding: 15px;
+    position: relative;
+    margin-right: 50px;
+    margin-top: -300px;
+    width: 40%;
+    text-align: justify;
+}
