@@ -97,7 +97,7 @@ nav li {
 
 /* Animation button */
 .animation {
-    background-image: url(/..images/animation.gif);
+    background-image: url(../images/animation.gif);
     background-repeat: no-repeat;
     display: block;
     height: 125px;
